@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: personel.bilgi.yonetim.sistemi
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/ypbs
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
